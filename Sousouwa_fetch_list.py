@@ -56,7 +56,7 @@ def main():
 		bou = "\r\n"*8 + '-'*30 + '\r\n'*2	
 		body = body + bou + aft
 		filename = './sousouwa_ss/' + title.replace("\t", "", 4).replace("\t", "　").replace(":", "") + '.txt'
-		sleep(0)
+		sleep(1)
 		if os.path.exists("./sousouwa_ss") == False:
 			os.mkdir('./sousouwa_ss')
 		with open(filename, 'w') as f: # 書き込みモードで開く
